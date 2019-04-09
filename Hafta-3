@@ -1,0 +1,30 @@
+#kendisine aktarılan bir listenin frekans tablosunu bulup geri döndüren bir işlev yazınız.
+my_list = [2,3,2,5,8,2,4,3,3,2,8,5,2]
+
+def my_frequency_dict (list):
+    frequency_dict = {}
+    Listedeki öğe için:
+        eğer (frequency_dict içindeki öğe):
+            frequency_dict [öğe] + = 1
+        Başka:
+            frequency_dict [öğe] = 1
+    dönüş frekansı
+
+
+Baskı (my_frequency_dict (my_list))
+
+def my_frequency_list (list_1):
+    frequency_list = []
+    i aralığında (len (list_1)):
+        s = Yanlış
+        j aralığında (len (frequency_list)):
+            eğer (list_1 [i] == frequency_list [j] [0]):
+                frequency_list [j] [1] + = 1
+                s = True
+
+        eğer (s == Yanlış):
+            frequency_list.append ([list_1 [i], 1]) # indis [0] [1] + = 1
+    dönüş frekansı_listesi
+
+
+Baskı (my_frequency_list (my_list))
