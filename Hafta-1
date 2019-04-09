@@ -1,0 +1,35 @@
+#boyutu n olan tek boyutlu dizi üretip bu diziyi kabarcık ve seçim sıralama ile sıralayın.Dizi açmak
+#islemi yapan işlev yazınız.Sıralanmış dizi üzerinde ikili arama.
+rastgele içe aktar
+def gene_ar_array (n):
+    my_array = []
+    i (n) aralığında:
+        s = random.randint (0,100)
+        my_array.append (lar)
+    dönüş my_array
+my_arr_1 = generate_an_array (10)
+Baskı (my_arr_1)
+def bubble_sort (my_array):
+    i aralığında (len (my_array) -1,0, -1):
+        (i) aralığında j için:
+            Eğer (my_array [j]> my_array [j + 1]):
+                t = my_array [j]
+                my_array [j] = my_array [j + 1]
+                my_array [j + 1] = t
+
+
+bubble_sort (my_arr_1)
+Baskı (my_arr_1)
+
+def my_search_c (dizi_2, öğe):
+    Bulunan = False
+    indis = -1
+    adım = 0
+    i aralığında (len (array_2)):
+        + = 1 adım
+        Eğer (array_2 [i] == et):
+            Bulunan = Doğru
+            indis = 1
+            mola
+    dönüş (bulundu, indis, step)
+Baskı (my_search_c (my_arr_1,42))
